@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital@1&family=Poppins:wght@300;400;500;600;700&family=Source+Code+Pro:wght@300&display=swap');
 *{
     margin:0;
     padding:0;
@@ -5,12 +6,30 @@
 
 .sidebar{
     background-color: red;
-    width:20vw;
+    width:10vw;
+    font-family: 'Fira Sans', sans-serif;
+    height:100vh;
+}
+.sidebar nav{
+    padding :20px;
+}
+.sidebar nav li{
+    list-style:none;
+    font-size:30px;
+    padding:33px 0;
 }
 .main{
     background-color:yellow;
-    width:80vw;
+    width:90vw;
 }
 .container{
+    display:flex;
+   
+}
+.infocontainer{
+    background-color:rgb(26, 255, 0);
+    height:78vh;
+    width:80vw;
+    margin: 144px auto;
     display:flex;
 }
